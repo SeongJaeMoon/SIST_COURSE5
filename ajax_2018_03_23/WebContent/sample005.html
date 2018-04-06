@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>SIST_쌍용교육센터</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script>
+	$(document).ready(function() {
+
+		// jQuery methods go here...
+
+	});
+</script>
+</head>
+<body>
+
+	<div class="container">
+	
+		<h1>Ajax Test</h1>
+		<button type="button" onclick="loadDoc()">Change Content</button>
+		<div id="demo"></div>
+	
+	</div>
+	<script>
+		function loadDoc() {
+			var xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					myFunction(this);
+				}
+			};
+			xhttp.open("GET", "breakfast_menu.xml", true);
+			xhttp.send();
+		}
+		
+		function myFunction(obj) {
+			var xmlDoc = obj.responseXML;
+			
+			//응답 결과를 파싱하고, 동적 테이블 태그 생성 및 출력
+			
+			
+			
+		}
+	</script>
+
+</body>
+</html>

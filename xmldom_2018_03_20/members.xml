@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<members>
+	<member mid="M001">
+		<name>hong</name>
+		<phone>010-1234-1234</phone>
+	</member>
+	<member mid="M002">
+		<name>park</name>
+		<phone>010-5678-5678</phone>
+	</member>
+</members>

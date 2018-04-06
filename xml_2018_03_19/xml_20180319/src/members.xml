@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 회원관리에 필요한 자료를 XML document로 작성 -->
+<!-- 회원번호, 이름, 전화번호, 이메일, 등록일(yyyy-MM-dd), 부서명 -->
+<members>
+	<member mid_="M001">
+		<name_>Hong</name_>
+		<phone>010-1234-1234</phone>
+		<email>hong@naver.com</email>
+		<regDate>2018-03-15</regDate>
+		<deptName>개발부</deptName>
+	</member>
+	<member mid_="M002">
+		<name_>Park</name_>
+		<phone>010-5678-8901</phone>
+		<email>park@test.com</email>
+		<regDate>2018-03-20</regDate>
+		<deptName>개발부</deptName>
+	</member>
+</members>

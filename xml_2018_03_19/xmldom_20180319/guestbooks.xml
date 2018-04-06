@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 방명록 자료를 XML document로 작성 -->
+<!-- gid, name_, pw, content, regDate, clientIP, blind -->
+<guestbooks>
+	<item gid="G001">
+		<name_>관리자</name_>
+		<pw>1234</pw>
+		<content>JSP 버전 방명록을 개설했습니다.</content>
+		<regDate>2018-03-19</regDate>
+		<clientIP>211.63.89.68</clientIP>
+		<blind>0</blind>
+	</item>
+	<item gid="G002">
+		<name_>홍길동</name_>
+		<pw>1234</pw>
+		<content>방명록 개설을 축하합니다.</content>
+		<regDate>2018-03-19</regDate>
+		<clientIP>211.63.89.70</clientIP>
+		<blind>0</blind>
+	</item>
+</guestbooks>

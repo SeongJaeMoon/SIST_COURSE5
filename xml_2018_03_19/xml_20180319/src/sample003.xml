@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- wellformed XML 상태 확인 -->
+<root>
+	<member>
+		<name></name>
+	<!-- <member>태그에 대한 끝태그가 부족 -->
+</root>
